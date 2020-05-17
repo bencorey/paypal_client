@@ -29,8 +29,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'activesupport', "#{(ENV['ACTIVESUPPORT_VERSION'] || '>= 4.2.8')}"
-  spec.add_dependency 'faraday', '~> 0.9'
-  spec.add_dependency 'faraday_middleware', '~> 0.12'
+  spec.add_dependency 'faraday', '>= 1.0'
+  spec.add_dependency 'faraday_middleware', '>= 1.0'
 
   spec.add_development_dependency 'bundler', '~> 1.16'
   spec.add_development_dependency 'rake', '~> 10.0'
